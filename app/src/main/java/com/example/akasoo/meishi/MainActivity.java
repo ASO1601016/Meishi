@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //a
 
     Button tapHere = (Button)findViewById(R.id.tapHere);
     tapHere.setOnClickListener(new View.OnClickListener(){
